@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Public\Documents\ClionProjects\Gnl
+CMAKE_SOURCE_DIR = C:\Users\Public\Documents\ClionProjects\get_next_line
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Public\Documents\ClionProjects\Gnl\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Public\Documents\ClionProjects\Gnl\cmake-build-debug\CMakeFiles C:\Users\Public\Documents\ClionProjects\Gnl\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Public\Documents\ClionProjects\Gnl\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named get_next_line
+# Target rules for targets named Get_next_line
 
 # Build rule for target.
-get_next_line: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 get_next_line
-.PHONY : get_next_line
+Get_next_line: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Get_next_line
+.PHONY : Get_next_line
 
 # fast build rule for target.
-get_next_line/fast:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/build
-.PHONY : get_next_line/fast
+Get_next_line/fast:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/build
+.PHONY : Get_next_line/fast
 
 get_next_line.obj: get_next_line.c.obj
 
@@ -128,7 +128,7 @@ get_next_line.obj: get_next_line.c.obj
 
 # target to build an object file
 get_next_line.c.obj:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/get_next_line.c.obj
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/get_next_line.c.obj
 .PHONY : get_next_line.c.obj
 
 get_next_line.i: get_next_line.c.i
@@ -137,7 +137,7 @@ get_next_line.i: get_next_line.c.i
 
 # target to preprocess a source file
 get_next_line.c.i:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/get_next_line.c.i
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/get_next_line.c.i
 .PHONY : get_next_line.c.i
 
 get_next_line.s: get_next_line.c.s
@@ -146,7 +146,7 @@ get_next_line.s: get_next_line.c.s
 
 # target to generate assembly for a file
 get_next_line.c.s:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/get_next_line.c.s
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/get_next_line.c.s
 .PHONY : get_next_line.c.s
 
 libft/ft_bzero.obj: libft/ft_bzero.c.obj
@@ -155,7 +155,7 @@ libft/ft_bzero.obj: libft/ft_bzero.c.obj
 
 # target to build an object file
 libft/ft_bzero.c.obj:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_bzero.c.obj
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.obj
 .PHONY : libft/ft_bzero.c.obj
 
 libft/ft_bzero.i: libft/ft_bzero.c.i
@@ -164,7 +164,7 @@ libft/ft_bzero.i: libft/ft_bzero.c.i
 
 # target to preprocess a source file
 libft/ft_bzero.c.i:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_bzero.c.i
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.i
 .PHONY : libft/ft_bzero.c.i
 
 libft/ft_bzero.s: libft/ft_bzero.c.s
@@ -173,7 +173,7 @@ libft/ft_bzero.s: libft/ft_bzero.c.s
 
 # target to generate assembly for a file
 libft/ft_bzero.c.s:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_bzero.c.s
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.s
 .PHONY : libft/ft_bzero.c.s
 
 libft/ft_memalloc.obj: libft/ft_memalloc.c.obj
@@ -182,7 +182,7 @@ libft/ft_memalloc.obj: libft/ft_memalloc.c.obj
 
 # target to build an object file
 libft/ft_memalloc.c.obj:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.obj
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.obj
 .PHONY : libft/ft_memalloc.c.obj
 
 libft/ft_memalloc.i: libft/ft_memalloc.c.i
@@ -191,7 +191,7 @@ libft/ft_memalloc.i: libft/ft_memalloc.c.i
 
 # target to preprocess a source file
 libft/ft_memalloc.c.i:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.i
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.i
 .PHONY : libft/ft_memalloc.c.i
 
 libft/ft_memalloc.s: libft/ft_memalloc.c.s
@@ -200,7 +200,7 @@ libft/ft_memalloc.s: libft/ft_memalloc.c.s
 
 # target to generate assembly for a file
 libft/ft_memalloc.c.s:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.s
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.s
 .PHONY : libft/ft_memalloc.c.s
 
 libft/ft_memcpy.obj: libft/ft_memcpy.c.obj
@@ -209,7 +209,7 @@ libft/ft_memcpy.obj: libft/ft_memcpy.c.obj
 
 # target to build an object file
 libft/ft_memcpy.c.obj:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.obj
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.obj
 .PHONY : libft/ft_memcpy.c.obj
 
 libft/ft_memcpy.i: libft/ft_memcpy.c.i
@@ -218,7 +218,7 @@ libft/ft_memcpy.i: libft/ft_memcpy.c.i
 
 # target to preprocess a source file
 libft/ft_memcpy.c.i:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.i
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.i
 .PHONY : libft/ft_memcpy.c.i
 
 libft/ft_memcpy.s: libft/ft_memcpy.c.s
@@ -227,7 +227,7 @@ libft/ft_memcpy.s: libft/ft_memcpy.c.s
 
 # target to generate assembly for a file
 libft/ft_memcpy.c.s:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.s
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.s
 .PHONY : libft/ft_memcpy.c.s
 
 libft/ft_memmove.obj: libft/ft_memmove.c.obj
@@ -236,7 +236,7 @@ libft/ft_memmove.obj: libft/ft_memmove.c.obj
 
 # target to build an object file
 libft/ft_memmove.c.obj:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_memmove.c.obj
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.obj
 .PHONY : libft/ft_memmove.c.obj
 
 libft/ft_memmove.i: libft/ft_memmove.c.i
@@ -245,7 +245,7 @@ libft/ft_memmove.i: libft/ft_memmove.c.i
 
 # target to preprocess a source file
 libft/ft_memmove.c.i:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_memmove.c.i
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.i
 .PHONY : libft/ft_memmove.c.i
 
 libft/ft_memmove.s: libft/ft_memmove.c.s
@@ -254,8 +254,89 @@ libft/ft_memmove.s: libft/ft_memmove.c.s
 
 # target to generate assembly for a file
 libft/ft_memmove.c.s:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_memmove.c.s
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.s
 .PHONY : libft/ft_memmove.c.s
+
+libft/ft_strchr.obj: libft/ft_strchr.c.obj
+
+.PHONY : libft/ft_strchr.obj
+
+# target to build an object file
+libft/ft_strchr.c.obj:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.obj
+.PHONY : libft/ft_strchr.c.obj
+
+libft/ft_strchr.i: libft/ft_strchr.c.i
+
+.PHONY : libft/ft_strchr.i
+
+# target to preprocess a source file
+libft/ft_strchr.c.i:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.i
+.PHONY : libft/ft_strchr.c.i
+
+libft/ft_strchr.s: libft/ft_strchr.c.s
+
+.PHONY : libft/ft_strchr.s
+
+# target to generate assembly for a file
+libft/ft_strchr.c.s:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.s
+.PHONY : libft/ft_strchr.c.s
+
+libft/ft_strdel.obj: libft/ft_strdel.c.obj
+
+.PHONY : libft/ft_strdel.obj
+
+# target to build an object file
+libft/ft_strdel.c.obj:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.obj
+.PHONY : libft/ft_strdel.c.obj
+
+libft/ft_strdel.i: libft/ft_strdel.c.i
+
+.PHONY : libft/ft_strdel.i
+
+# target to preprocess a source file
+libft/ft_strdel.c.i:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.i
+.PHONY : libft/ft_strdel.c.i
+
+libft/ft_strdel.s: libft/ft_strdel.c.s
+
+.PHONY : libft/ft_strdel.s
+
+# target to generate assembly for a file
+libft/ft_strdel.c.s:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.s
+.PHONY : libft/ft_strdel.c.s
+
+libft/ft_strjoin.obj: libft/ft_strjoin.c.obj
+
+.PHONY : libft/ft_strjoin.obj
+
+# target to build an object file
+libft/ft_strjoin.c.obj:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.obj
+.PHONY : libft/ft_strjoin.c.obj
+
+libft/ft_strjoin.i: libft/ft_strjoin.c.i
+
+.PHONY : libft/ft_strjoin.i
+
+# target to preprocess a source file
+libft/ft_strjoin.c.i:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.i
+.PHONY : libft/ft_strjoin.c.i
+
+libft/ft_strjoin.s: libft/ft_strjoin.c.s
+
+.PHONY : libft/ft_strjoin.s
+
+# target to generate assembly for a file
+libft/ft_strjoin.c.s:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.s
+.PHONY : libft/ft_strjoin.c.s
 
 libft/ft_strlen.obj: libft/ft_strlen.c.obj
 
@@ -263,7 +344,7 @@ libft/ft_strlen.obj: libft/ft_strlen.c.obj
 
 # target to build an object file
 libft/ft_strlen.c.obj:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_strlen.c.obj
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.obj
 .PHONY : libft/ft_strlen.c.obj
 
 libft/ft_strlen.i: libft/ft_strlen.c.i
@@ -272,7 +353,7 @@ libft/ft_strlen.i: libft/ft_strlen.c.i
 
 # target to preprocess a source file
 libft/ft_strlen.c.i:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_strlen.c.i
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.i
 .PHONY : libft/ft_strlen.c.i
 
 libft/ft_strlen.s: libft/ft_strlen.c.s
@@ -281,8 +362,62 @@ libft/ft_strlen.s: libft/ft_strlen.c.s
 
 # target to generate assembly for a file
 libft/ft_strlen.c.s:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/libft/ft_strlen.c.s
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.s
 .PHONY : libft/ft_strlen.c.s
+
+libft/ft_strnew.obj: libft/ft_strnew.c.obj
+
+.PHONY : libft/ft_strnew.obj
+
+# target to build an object file
+libft/ft_strnew.c.obj:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.obj
+.PHONY : libft/ft_strnew.c.obj
+
+libft/ft_strnew.i: libft/ft_strnew.c.i
+
+.PHONY : libft/ft_strnew.i
+
+# target to preprocess a source file
+libft/ft_strnew.c.i:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.i
+.PHONY : libft/ft_strnew.c.i
+
+libft/ft_strnew.s: libft/ft_strnew.c.s
+
+.PHONY : libft/ft_strnew.s
+
+# target to generate assembly for a file
+libft/ft_strnew.c.s:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.s
+.PHONY : libft/ft_strnew.c.s
+
+libft/ft_strsub.obj: libft/ft_strsub.c.obj
+
+.PHONY : libft/ft_strsub.obj
+
+# target to build an object file
+libft/ft_strsub.c.obj:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.obj
+.PHONY : libft/ft_strsub.c.obj
+
+libft/ft_strsub.i: libft/ft_strsub.c.i
+
+.PHONY : libft/ft_strsub.i
+
+# target to preprocess a source file
+libft/ft_strsub.c.i:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.i
+.PHONY : libft/ft_strsub.c.i
+
+libft/ft_strsub.s: libft/ft_strsub.c.s
+
+.PHONY : libft/ft_strsub.s
+
+# target to generate assembly for a file
+libft/ft_strsub.c.s:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.s
+.PHONY : libft/ft_strsub.c.s
 
 tests.obj: tests.c.obj
 
@@ -290,7 +425,7 @@ tests.obj: tests.c.obj
 
 # target to build an object file
 tests.c.obj:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/tests.c.obj
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/tests.c.obj
 .PHONY : tests.c.obj
 
 tests.i: tests.c.i
@@ -299,7 +434,7 @@ tests.i: tests.c.i
 
 # target to preprocess a source file
 tests.c.i:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/tests.c.i
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/tests.c.i
 .PHONY : tests.c.i
 
 tests.s: tests.c.s
@@ -308,7 +443,7 @@ tests.s: tests.c.s
 
 # target to generate assembly for a file
 tests.c.s:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/tests.c.s
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/tests.c.s
 .PHONY : tests.c.s
 
 # Help Target
@@ -318,7 +453,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
-	@echo ... get_next_line
+	@echo ... Get_next_line
 	@echo ... rebuild_cache
 	@echo ... get_next_line.obj
 	@echo ... get_next_line.i
@@ -335,9 +470,24 @@ help:
 	@echo ... libft/ft_memmove.obj
 	@echo ... libft/ft_memmove.i
 	@echo ... libft/ft_memmove.s
+	@echo ... libft/ft_strchr.obj
+	@echo ... libft/ft_strchr.i
+	@echo ... libft/ft_strchr.s
+	@echo ... libft/ft_strdel.obj
+	@echo ... libft/ft_strdel.i
+	@echo ... libft/ft_strdel.s
+	@echo ... libft/ft_strjoin.obj
+	@echo ... libft/ft_strjoin.i
+	@echo ... libft/ft_strjoin.s
 	@echo ... libft/ft_strlen.obj
 	@echo ... libft/ft_strlen.i
 	@echo ... libft/ft_strlen.s
+	@echo ... libft/ft_strnew.obj
+	@echo ... libft/ft_strnew.i
+	@echo ... libft/ft_strnew.s
+	@echo ... libft/ft_strsub.obj
+	@echo ... libft/ft_strsub.i
+	@echo ... libft/ft_strsub.s
 	@echo ... tests.obj
 	@echo ... tests.i
 	@echo ... tests.s

@@ -1,101 +1,52 @@
-#include <fcntl.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: tgarkbit <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/09/21 14:39:55 by tgarkbit          #+#    #+#             */
+/*   Updated: 2019/09/21 14:39:56 by tgarkbit         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "get_next_line.h"
 
-static		int		ft_print_liner(char *arr, char **line, int size, int j)
+static	int		ft_vl(char *arr)
 {
 	int		i;
-	int		n;
-
-	i = -1;
-	while (arr[++i] != '\n' && arr[i])
-	{
-		(*line)[i + j] = arr[i];
-		arr[i] = '\0';
-	}
-	if (arr[i] == '\n')
-	{
-		n = ft_strlen(arr + i + 1);
-		if (n)
-		{
-			ft_memmove(arr, arr + i + 1, n);
-			arr[n] = '\0';
-		}
-		(*line)[i + j] = '\0';
-		if (!(arr[0]))
-			free(arr);
-		return (1);
-	}
-	(*line)[i + j] = '\0';
-	return (i);
-}
-
-static 		int 	ft_free(char *arr)
-{
-	free(arr);
-	return (0);
-}
-
-static		int		ft_validate_line(char *arr, int n)
-{
-	int		i;
-
-	i = -1;
-	while (++i < n && arr[i])
-		if (arr[i] == '\n')
-			return (1);
-	return (0);
-}
-
-static		int		ft_print_line(char *arr, char **line, int size)
-{
-	int		i;
-	int		n;
-
-	i = -1;
-	while (arr[++i] != '\n' && arr[i])
-	{
-		(*line)[i] = arr[i];
-		arr[i] = '\0';
-	}
-	if (arr[i] == '\n')
-	{
-		n = ft_strlen(arr + i + 1);
-		if (n)
-		{
-			ft_memmove(arr, arr + i + 1, n);
-			arr[n] = '\0';
-		}
-		(*line)[i] = '\0';
-		return (-1);
-	}
-	(*line)[i] = '\0';
-	return (i);
-}
-
-int					get_next_line(const int fd, char **line)
-{
-	static	char	*arr;
-	static	int		size;
-	int				i;
-	int 			j;
 
 	i = 0;
-	if (fd < 0 || !line || (read(fd, NULL, 0) < 0))
-		return (0);
+	while (arr[i] && arr[i] != '\n')
+		i++;
+	return (i);
+}
+
+int				get_next_line(const int fd, char **line)
+{
+	static	char	*arr;
+	char			buf[BUFF_SIZE + 1];
+	char			*tmp;
+	int				n;
+
 	if (!arr)
+		arr = ft_strnew(0);
+	if (fd < 0 || !line || (read(fd, NULL, 0) < 0))
+		return (-1);
+	while ((n = read(fd, buf, BUFF_SIZE)))
 	{
-		arr = (char*)ft_memalloc(BUFF_SIZE * 10);
-		size = BUFF_SIZE * 105;
-	}
-	if (arr[0 + (j = 0)])
-		if ((j = ft_print_line(arr, line, size)) < 0)
-			return (1);
-	while ((i = i + BUFF_SIZE))
-	{
-		if ((read(fd, arr + i - BUFF_SIZE, BUFF_SIZE) != BUFF_SIZE) || ft_validate_line(arr, i))
+		buf[n] = '\0';
+		tmp = ft_strjoin(arr, buf);
+		free(arr);
+		arr = tmp;
+		if (ft_strchr(arr, '\n'))
 			break ;
-		if (i + BUFF_SIZE > size)
-			arr = realloc(arr, (size *= 105));
 	}
-	return (ft_print_liner(arr, line, size, j));
+	if (*arr == '\0')
+		return (0);
+	*line = ft_strsub(arr, 0, ft_vl(arr));
+	n = ft_strlen(arr + ft_vl(arr) + 1);
+	(ft_strlen(*line) < ft_strlen(arr)) ?
+		ft_memmove(arr, arr + ft_vl(arr) + 1, n + 1) : ft_strdel(&arr);
+	return (1);
 }

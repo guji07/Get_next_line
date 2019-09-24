@@ -58,45 +58,45 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Public\Documents\ClionProjects\Gnl
+CMAKE_SOURCE_DIR = C:\Users\Public\Documents\ClionProjects\get_next_line
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Public\Documents\ClionProjects\Gnl\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/get_next_line.dir
+# Target rules for target CMakeFiles/Get_next_line.dir
 
 # All Build rule for target.
-CMakeFiles/get_next_line.dir/all:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/depend
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Public\Documents\ClionProjects\Gnl\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target get_next_line"
-.PHONY : CMakeFiles/get_next_line.dir/all
+CMakeFiles/Get_next_line.dir/all:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/depend
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target Get_next_line"
+.PHONY : CMakeFiles/Get_next_line.dir/all
 
 # Include target in all.
-all: CMakeFiles/get_next_line.dir/all
+all: CMakeFiles/Get_next_line.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/get_next_line.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Public\Documents\ClionProjects\Gnl\cmake-build-debug\CMakeFiles 8
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/get_next_line.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Public\Documents\ClionProjects\Gnl\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/get_next_line.dir/rule
+CMakeFiles/Get_next_line.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles 13
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Get_next_line.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/Get_next_line.dir/rule
 
 # Convenience name for target.
-get_next_line: CMakeFiles/get_next_line.dir/rule
+Get_next_line: CMakeFiles/Get_next_line.dir/rule
 
-.PHONY : get_next_line
-
-# clean rule for target.
-CMakeFiles/get_next_line.dir/clean:
-	$(MAKE) -f CMakeFiles\get_next_line.dir\build.make CMakeFiles/get_next_line.dir/clean
-.PHONY : CMakeFiles/get_next_line.dir/clean
+.PHONY : Get_next_line
 
 # clean rule for target.
-clean: CMakeFiles/get_next_line.dir/clean
+CMakeFiles/Get_next_line.dir/clean:
+	$(MAKE) -f CMakeFiles\Get_next_line.dir\build.make CMakeFiles/Get_next_line.dir/clean
+.PHONY : CMakeFiles/Get_next_line.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Get_next_line.dir/clean
 
 .PHONY : clean
 

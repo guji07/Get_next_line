@@ -48,142 +48,217 @@ CMAKE_SOURCE_DIR = C:\Users\Public\Documents\ClionProjects\get_next_line
 CMAKE_BINARY_DIR = C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug
 
 # Include any dependencies generated for this target.
-include CMakeFiles/get_next_line.dir/depend.make
+include CMakeFiles/Get_next_line.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/get_next_line.dir/progress.make
+include CMakeFiles/Get_next_line.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/get_next_line.dir/flags.make
+include CMakeFiles/Get_next_line.dir/flags.make
 
-CMakeFiles/get_next_line.dir/get_next_line.c.obj: CMakeFiles/get_next_line.dir/flags.make
-CMakeFiles/get_next_line.dir/get_next_line.c.obj: ../get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/get_next_line.dir/get_next_line.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\get_next_line.dir\get_next_line.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\get_next_line.c
+CMakeFiles/Get_next_line.dir/get_next_line.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/get_next_line.c.obj: ../get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Get_next_line.dir/get_next_line.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\get_next_line.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\get_next_line.c
 
-CMakeFiles/get_next_line.dir/get_next_line.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get_next_line.dir/get_next_line.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\get_next_line.c > CMakeFiles\get_next_line.dir\get_next_line.c.i
+CMakeFiles/Get_next_line.dir/get_next_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/get_next_line.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\get_next_line.c > CMakeFiles\Get_next_line.dir\get_next_line.c.i
 
-CMakeFiles/get_next_line.dir/get_next_line.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get_next_line.dir/get_next_line.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\get_next_line.c -o CMakeFiles\get_next_line.dir\get_next_line.c.s
+CMakeFiles/Get_next_line.dir/get_next_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/get_next_line.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\get_next_line.c -o CMakeFiles\Get_next_line.dir\get_next_line.c.s
 
-CMakeFiles/get_next_line.dir/tests.c.obj: CMakeFiles/get_next_line.dir/flags.make
-CMakeFiles/get_next_line.dir/tests.c.obj: ../tests.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/get_next_line.dir/tests.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\get_next_line.dir\tests.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\tests.c
+CMakeFiles/Get_next_line.dir/tests.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/tests.c.obj: ../tests.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Get_next_line.dir/tests.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\tests.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\tests.c
 
-CMakeFiles/get_next_line.dir/tests.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get_next_line.dir/tests.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\tests.c > CMakeFiles\get_next_line.dir\tests.c.i
+CMakeFiles/Get_next_line.dir/tests.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/tests.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\tests.c > CMakeFiles\Get_next_line.dir\tests.c.i
 
-CMakeFiles/get_next_line.dir/tests.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get_next_line.dir/tests.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\tests.c -o CMakeFiles\get_next_line.dir\tests.c.s
+CMakeFiles/Get_next_line.dir/tests.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/tests.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\tests.c -o CMakeFiles\Get_next_line.dir\tests.c.s
 
-CMakeFiles/get_next_line.dir/libft/ft_strlen.c.obj: CMakeFiles/get_next_line.dir/flags.make
-CMakeFiles/get_next_line.dir/libft/ft_strlen.c.obj: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/get_next_line.dir/libft/ft_strlen.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\get_next_line.dir\libft\ft_strlen.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strlen.c
+CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.obj: ../libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\libft\ft_strdel.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strdel.c
 
-CMakeFiles/get_next_line.dir/libft/ft_strlen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get_next_line.dir/libft/ft_strlen.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strlen.c > CMakeFiles\get_next_line.dir\libft\ft_strlen.c.i
+CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strdel.c > CMakeFiles\Get_next_line.dir\libft\ft_strdel.c.i
 
-CMakeFiles/get_next_line.dir/libft/ft_strlen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get_next_line.dir/libft/ft_strlen.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strlen.c -o CMakeFiles\get_next_line.dir\libft\ft_strlen.c.s
+CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strdel.c -o CMakeFiles\Get_next_line.dir\libft\ft_strdel.c.s
 
-CMakeFiles/get_next_line.dir/libft/ft_memmove.c.obj: CMakeFiles/get_next_line.dir/flags.make
-CMakeFiles/get_next_line.dir/libft/ft_memmove.c.obj: ../libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/get_next_line.dir/libft/ft_memmove.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\get_next_line.dir\libft\ft_memmove.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memmove.c
+CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.obj: ../libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\libft\ft_strsub.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strsub.c
 
-CMakeFiles/get_next_line.dir/libft/ft_memmove.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get_next_line.dir/libft/ft_memmove.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memmove.c > CMakeFiles\get_next_line.dir\libft\ft_memmove.c.i
+CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strsub.c > CMakeFiles\Get_next_line.dir\libft\ft_strsub.c.i
 
-CMakeFiles/get_next_line.dir/libft/ft_memmove.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get_next_line.dir/libft/ft_memmove.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memmove.c -o CMakeFiles\get_next_line.dir\libft\ft_memmove.c.s
+CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strsub.c -o CMakeFiles\Get_next_line.dir\libft\ft_strsub.c.s
 
-CMakeFiles/get_next_line.dir/libft/ft_bzero.c.obj: CMakeFiles/get_next_line.dir/flags.make
-CMakeFiles/get_next_line.dir/libft/ft_bzero.c.obj: ../libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/get_next_line.dir/libft/ft_bzero.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\get_next_line.dir\libft\ft_bzero.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_bzero.c
+CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.obj: ../libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\libft\ft_strlen.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strlen.c
 
-CMakeFiles/get_next_line.dir/libft/ft_bzero.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get_next_line.dir/libft/ft_bzero.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_bzero.c > CMakeFiles\get_next_line.dir\libft\ft_bzero.c.i
+CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strlen.c > CMakeFiles\Get_next_line.dir\libft\ft_strlen.c.i
 
-CMakeFiles/get_next_line.dir/libft/ft_bzero.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get_next_line.dir/libft/ft_bzero.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_bzero.c -o CMakeFiles\get_next_line.dir\libft\ft_bzero.c.s
+CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strlen.c -o CMakeFiles\Get_next_line.dir\libft\ft_strlen.c.s
 
-CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.obj: CMakeFiles/get_next_line.dir/flags.make
-CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.obj: ../libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\get_next_line.dir\libft\ft_memcpy.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memcpy.c
+CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.obj: ../libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\libft\ft_memalloc.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memalloc.c
 
-CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memcpy.c > CMakeFiles\get_next_line.dir\libft\ft_memcpy.c.i
+CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memalloc.c > CMakeFiles\Get_next_line.dir\libft\ft_memalloc.c.i
 
-CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memcpy.c -o CMakeFiles\get_next_line.dir\libft\ft_memcpy.c.s
+CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memalloc.c -o CMakeFiles\Get_next_line.dir\libft\ft_memalloc.c.s
 
-CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.obj: CMakeFiles/get_next_line.dir/flags.make
-CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.obj: ../libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\get_next_line.dir\libft\ft_memalloc.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memalloc.c
+CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.obj: ../libft/ft_memmove.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\libft\ft_memmove.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memmove.c
 
-CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memalloc.c > CMakeFiles\get_next_line.dir\libft\ft_memalloc.c.i
+CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memmove.c > CMakeFiles\Get_next_line.dir\libft\ft_memmove.c.i
 
-CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memalloc.c -o CMakeFiles\get_next_line.dir\libft\ft_memalloc.c.s
+CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memmove.c -o CMakeFiles\Get_next_line.dir\libft\ft_memmove.c.s
 
-# Object files for target get_next_line
-get_next_line_OBJECTS = \
-"CMakeFiles/get_next_line.dir/get_next_line.c.obj" \
-"CMakeFiles/get_next_line.dir/tests.c.obj" \
-"CMakeFiles/get_next_line.dir/libft/ft_strlen.c.obj" \
-"CMakeFiles/get_next_line.dir/libft/ft_memmove.c.obj" \
-"CMakeFiles/get_next_line.dir/libft/ft_bzero.c.obj" \
-"CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.obj" \
-"CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.obj"
+CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.obj: ../libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\libft\ft_strchr.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strchr.c
 
-# External object files for target get_next_line
-get_next_line_EXTERNAL_OBJECTS =
+CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strchr.c > CMakeFiles\Get_next_line.dir\libft\ft_strchr.c.i
 
-get_next_line.exe: CMakeFiles/get_next_line.dir/get_next_line.c.obj
-get_next_line.exe: CMakeFiles/get_next_line.dir/tests.c.obj
-get_next_line.exe: CMakeFiles/get_next_line.dir/libft/ft_strlen.c.obj
-get_next_line.exe: CMakeFiles/get_next_line.dir/libft/ft_memmove.c.obj
-get_next_line.exe: CMakeFiles/get_next_line.dir/libft/ft_bzero.c.obj
-get_next_line.exe: CMakeFiles/get_next_line.dir/libft/ft_memcpy.c.obj
-get_next_line.exe: CMakeFiles/get_next_line.dir/libft/ft_memalloc.c.obj
-get_next_line.exe: CMakeFiles/get_next_line.dir/build.make
-get_next_line.exe: CMakeFiles/get_next_line.dir/linklibs.rsp
-get_next_line.exe: CMakeFiles/get_next_line.dir/objects1.rsp
-get_next_line.exe: CMakeFiles/get_next_line.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable get_next_line.exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\get_next_line.dir\link.txt --verbose=$(VERBOSE)
+CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strchr.c -o CMakeFiles\Get_next_line.dir\libft\ft_strchr.c.s
+
+CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.obj: ../libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\libft\ft_bzero.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_bzero.c
+
+CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_bzero.c > CMakeFiles\Get_next_line.dir\libft\ft_bzero.c.i
+
+CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_bzero.c -o CMakeFiles\Get_next_line.dir\libft\ft_bzero.c.s
+
+CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.obj: ../libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\libft\ft_strjoin.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strjoin.c
+
+CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strjoin.c > CMakeFiles\Get_next_line.dir\libft\ft_strjoin.c.i
+
+CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strjoin.c -o CMakeFiles\Get_next_line.dir\libft\ft_strjoin.c.s
+
+CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.obj: ../libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\libft\ft_memcpy.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memcpy.c
+
+CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memcpy.c > CMakeFiles\Get_next_line.dir\libft\ft_memcpy.c.i
+
+CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_memcpy.c -o CMakeFiles\Get_next_line.dir\libft\ft_memcpy.c.s
+
+CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.obj: CMakeFiles/Get_next_line.dir/flags.make
+CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.obj: ../libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Get_next_line.dir\libft\ft_strnew.c.obj   -c C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strnew.c
+
+CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strnew.c > CMakeFiles\Get_next_line.dir\libft\ft_strnew.c.i
+
+CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Public\Documents\ClionProjects\get_next_line\libft\ft_strnew.c -o CMakeFiles\Get_next_line.dir\libft\ft_strnew.c.s
+
+# Object files for target Get_next_line
+Get_next_line_OBJECTS = \
+"CMakeFiles/Get_next_line.dir/get_next_line.c.obj" \
+"CMakeFiles/Get_next_line.dir/tests.c.obj" \
+"CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.obj" \
+"CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.obj" \
+"CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.obj" \
+"CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.obj" \
+"CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.obj" \
+"CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.obj" \
+"CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.obj" \
+"CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.obj" \
+"CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.obj" \
+"CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.obj"
+
+# External object files for target Get_next_line
+Get_next_line_EXTERNAL_OBJECTS =
+
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/get_next_line.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/tests.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/libft/ft_strdel.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/libft/ft_strsub.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/libft/ft_strlen.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/libft/ft_memalloc.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/libft/ft_memmove.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/libft/ft_strchr.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/libft/ft_bzero.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/libft/ft_strjoin.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/libft/ft_memcpy.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/libft/ft_strnew.c.obj
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/build.make
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/linklibs.rsp
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/objects1.rsp
+Get_next_line.exe: CMakeFiles/Get_next_line.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable Get_next_line.exe"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Get_next_line.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/get_next_line.dir/build: get_next_line.exe
+CMakeFiles/Get_next_line.dir/build: Get_next_line.exe
 
-.PHONY : CMakeFiles/get_next_line.dir/build
+.PHONY : CMakeFiles/Get_next_line.dir/build
 
-CMakeFiles/get_next_line.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles\get_next_line.dir\cmake_clean.cmake
-.PHONY : CMakeFiles/get_next_line.dir/clean
+CMakeFiles/Get_next_line.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles\Get_next_line.dir\cmake_clean.cmake
+.PHONY : CMakeFiles/Get_next_line.dir/clean
 
-CMakeFiles/get_next_line.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Public\Documents\ClionProjects\get_next_line C:\Users\Public\Documents\ClionProjects\get_next_line C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles\get_next_line.dir\DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/get_next_line.dir/depend
+CMakeFiles/Get_next_line.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Public\Documents\ClionProjects\get_next_line C:\Users\Public\Documents\ClionProjects\get_next_line C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug C:\Users\Public\Documents\ClionProjects\get_next_line\cmake-build-debug\CMakeFiles\Get_next_line.dir\DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/Get_next_line.dir/depend
 
