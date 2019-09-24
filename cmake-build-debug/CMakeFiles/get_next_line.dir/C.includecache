@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Public/Documents/ClionProjects/get_next_line/get_next_line.c
+fcntl.h
+-
+get_next_line.h
+C:/Users/Public/Documents/ClionProjects/get_next_line/get_next_line.h
+
+C:/Users/Public/Documents/ClionProjects/get_next_line/get_next_line.h
+stdlib.h
+-
+unistd.h
+-
+libft/libft.h
+C:/Users/Public/Documents/ClionProjects/get_next_line/libft/libft.h
+
+C:/Users/Public/Documents/ClionProjects/get_next_line/libft/libft.h
+stdlib.h
+-
+unistd.h
+-
+
